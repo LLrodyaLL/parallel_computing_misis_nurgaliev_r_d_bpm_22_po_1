@@ -1,0 +1,16 @@
+/build/
+/.vs/
+/.idea/
+/out/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.user
+*.log
+*.o
+*.a
+*.dll
+*.lib
+__pycache__/
+*.pyc

@@ -6,6 +6,7 @@
 #include <iostream>
 #include <vector>
 #include <exception>
+#include <filesystem>
 
 int main() {
     try {
@@ -51,6 +52,7 @@ int main() {
                       << "RDTSC = " << rdtscTicks << " ticks\n";
         }
 
+        std::filesystem::create_directories("results");
         writeMeasurementsToCsv("results/raw_measurements.csv", rows);
 
         std::cout << "\nDone.\n";

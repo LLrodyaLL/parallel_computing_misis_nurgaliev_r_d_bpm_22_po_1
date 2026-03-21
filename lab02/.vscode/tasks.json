@@ -1,0 +1,37 @@
+
+---
+
+## `.vscode/tasks.json`
+
+```json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Configure Debug",
+            "type": "shell",
+            "command": "cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug",
+            "group": "build"
+        },
+        {
+            "label": "CMake Build Debug",
+            "type": "shell",
+            "command": "cmake --build build --config Debug",
+            "group": "build",
+            "dependsOn": "CMake Configure Debug"
+        },
+        {
+            "label": "CMake Configure Release",
+            "type": "shell",
+            "command": "cmake -S . -B build -DCMAKE_BUILD_TYPE=Release",
+            "group": "build"
+        },
+        {
+            "label": "CMake Build Release",
+            "type": "shell",
+            "command": "cmake --build build --config Release",
+            "group": "build",
+            "dependsOn": "CMake Configure Release"
+        }
+    ]
+}

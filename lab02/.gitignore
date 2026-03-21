@@ -1,0 +1,9 @@
+/build/
+/out/
+/.vscode/*.db
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+results/*.csv

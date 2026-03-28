@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab03\build\CMakeFiles\63e736b1cef224e51c0cee4511dc8e40\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{551E3288-0A2B-311B-881E-4B5340259464}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

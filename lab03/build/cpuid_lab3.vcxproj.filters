@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab03\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab03\src\cpuid_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab03\src\formatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab03\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8BF75C49-61B7-356D-AB1C-78F1AE2A7A4D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

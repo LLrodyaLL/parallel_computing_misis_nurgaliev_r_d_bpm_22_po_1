@@ -1,0 +1,123 @@
+============================================================
+CPUID LAB WORK REPORT
+============================================================
+
+[1] General information
+Vendor                : GenuineIntel
+Brand                 : Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+Max basic leaf        : 0x16
+Max extended leaf     : 0x80000008
+
+[2] CPUID EAX=1 - Version information
+Raw EAX               : 0xA0655
+Stepping ID           : 5
+Model                 : 5
+Family                : 6
+Processor type        : 0
+Extended model        : 10
+Extended family       : 0
+Display model         : 165
+Display family        : 6
+Brand index           : 0
+CLFLUSH line size     : 64 bytes
+Logical processors    : 16
+Local APIC ID         : 2
+
+[3] CPUID EAX=1, EDX features
+  FPU           : Yes
+  TSC           : Yes
+  MMX           : Yes
+  SSE           : Yes
+  SSE2          : Yes
+  HTT           : Yes
+
+[4] CPUID EAX=1, ECX features
+  SSE3          : Yes
+  SSSE3         : Yes
+  FMA3          : Yes
+  SSE4.1        : Yes
+  SSE4.2        : Yes
+  AVX           : Yes
+
+[5] Deterministic cache parameters
+Subleaf               : 0
+Cache type            : Data cache
+Cache level           : L1
+Fully associative     : No
+Threads per cache     : 2
+Processor cores       : 8
+Line size             : 64 bytes
+Line partitions       : 1
+Ways                  : 8
+Sets                  : 64
+Inclusive             : No
+Cache size            : 32 KB
+
+Subleaf               : 1
+Cache type            : Instruction cache
+Cache level           : L1
+Fully associative     : No
+Threads per cache     : 2
+Processor cores       : 8
+Line size             : 64 bytes
+Line partitions       : 1
+Ways                  : 8
+Sets                  : 64
+Inclusive             : No
+Cache size            : 32 KB
+
+Subleaf               : 2
+Cache type            : Unified cache
+Cache level           : L2
+Fully associative     : No
+Threads per cache     : 2
+Processor cores       : 8
+Line size             : 64 bytes
+Line partitions       : 1
+Ways                  : 4
+Sets                  : 1024
+Inclusive             : No
+Cache size            : 256 KB
+
+Subleaf               : 3
+Cache type            : Unified cache
+Cache level           : L3
+Fully associative     : No
+Threads per cache     : 16
+Processor cores       : 8
+Line size             : 64 bytes
+Line partitions       : 1
+Ways                  : 16
+Sets                  : 12288
+Inclusive             : Yes
+Cache size            : 12 MB
+
+[6] CPUID EAX=7, ECX=0, EBX features
+  AVX2          : Yes
+  RTM/TSX       : No
+  AVX512F       : No
+  SHA           : No
+
+[7] CPUID EAX=7, ECX=0, ECX features
+  GFNI          : No
+
+[8] CPUID EAX=7, ECX=0, EDX features
+  AMX-BF16      : No
+  AMX-TILE      : No
+  AMX-INT8      : No
+
+[10] CPUID EAX=16h - Frequency information
+Base frequency        : 2900 MHz
+Max frequency         : 4300 MHz
+Bus frequency         : 100 MHz
+
+[11] CPUID EAX=80000001h, ECX features
+  SSE4a         : No
+  FMA4          : No
+
+[12] CPUID EAX=80000001h, EDX features
+  3DNow!        : No
+  Ext 3DNow!    : No
+
+Note: some CPUID leaves may return zero, incomplete or vendor-specific
+data, which is also mentioned in the lab description.

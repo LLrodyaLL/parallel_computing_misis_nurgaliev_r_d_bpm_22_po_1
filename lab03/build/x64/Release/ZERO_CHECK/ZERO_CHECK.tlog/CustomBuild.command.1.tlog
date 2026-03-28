@@ -1,0 +1,10 @@
+^C:\USERS\РОДЯ\DESKTOP\PARALLEL_COMPUTING_MISIS_NURGALIEV_R_D_BPM_22_PO_1\LAB03\BUILD\CMAKEFILES\63E736B1CEF224E51C0CEE4511DC8E40\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Родя/Desktop/parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1/lab03 -BC:/Users/Родя/Desktop/parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1/lab03/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Родя/Desktop/parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1/lab03/build/cpuid_lab3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

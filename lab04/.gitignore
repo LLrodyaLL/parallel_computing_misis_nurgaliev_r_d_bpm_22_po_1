@@ -3,7 +3,5 @@ bin/
 *.exe
 *.out
 *.o
-results/*.png
-results/*.csv
 __pycache__/
 .vscode/*.log

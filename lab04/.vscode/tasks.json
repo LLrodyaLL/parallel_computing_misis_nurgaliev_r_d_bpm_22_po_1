@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "cmake configure",
+        "type": "shell",
+        "command": "cmake -S . -B build",
+        "problemMatcher": []
+      },
+      {
+        "label": "cmake build",
+        "type": "shell",
+        "command": "cmake --build build --config Release",
+        "dependsOn": "cmake configure",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$msCompile"]
+      },
+      {
+        "label": "run lab04",
+        "type": "shell",
+        "command": ".\\build\\Release\\lab04.exe",
+        "dependsOn": "cmake build",
+        "problemMatcher": []
+      }
+    ]
+  }

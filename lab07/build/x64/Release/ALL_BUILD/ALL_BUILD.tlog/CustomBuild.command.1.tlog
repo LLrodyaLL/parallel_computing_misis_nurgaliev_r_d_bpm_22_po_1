@@ -1,0 +1,10 @@
+^C:\USERS\РОДЯ\DESKTOP\PARALLEL_COMPUTING_MISIS_NURGALIEV_R_D_BPM_22_PO_1\LAB07\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Родя/Desktop/parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1/lab07 -BC:/Users/Родя/Desktop/parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1/lab07/build --check-stamp-file C:/Users/Родя/Desktop/parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1/lab07/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

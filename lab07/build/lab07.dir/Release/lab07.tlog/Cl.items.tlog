@@ -1,0 +1,4 @@
+C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\src\main.cpp;C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\build\lab07.dir\Release\main.obj
+C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\src\pgm.cpp;C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\build\lab07.dir\Release\pgm.obj
+C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\src\scharr_scalar.cpp;C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\build\lab07.dir\Release\scharr_scalar.obj
+C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\src\scharr_simd_avx2.cpp;C:\Users\Родя\Desktop\parallel_computing_misis_nurgaliev_r_d_bpm_22_po_1\lab07\build\lab07.dir\Release\scharr_simd_avx2.obj

@@ -1,0 +1,7 @@
+mode,seconds,bandwidth_gb_s,check_ok
+HostToHost,0.0253953,5.28514,1
+HostToDevice_Pageable,0.0280677,4.78193,1
+DeviceToHost_Pageable,0.0279053,4.80976,1
+HostToDevice_Pinned,0.0108538,12.366,1
+DeviceToHost_Pinned,0.01022,13.1329,1
+DeviceToDevice,0.00115788,115.917,1
